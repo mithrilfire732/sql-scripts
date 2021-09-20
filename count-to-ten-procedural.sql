@@ -1,7 +1,7 @@
 Create or alter procedure CountToTen
 as
 begin
-	declare @Index int = 1
+	declare @Index int = 0
 	declare @stop int = 10
 
 	WHILE @index < @stop
