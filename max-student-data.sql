@@ -20,3 +20,20 @@ CREATE Table Topics (
 	TooEasy bit not null default 1
 )
 go
+INSERT into Topics
+	(Description,Sequence,TooEasy)
+	values
+	('git/GitHub', 1, 1),
+	('Sql Server',2,1),
+	('C#', 3,0),
+	('EntityFrameworkCore',4,1),
+	('Java',5,1),
+	('Spring',6,1),
+	('HTML',7,1),
+	('CSS', 8, 1),
+	('JavaScript',9,0),
+	('Bootstrap',10,1),
+	('jQuery', 11,1),
+	('Typescript', 12,1),
+	('Angular',13,0)
+go
