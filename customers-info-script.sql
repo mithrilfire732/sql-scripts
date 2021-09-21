@@ -25,11 +25,10 @@ insert into customers
 	('LK257','Rachel Eric',1456.89)
 ;
 go
-ALTER Table Customers
+/*ALTER Table Customers
 	add updated DateTime;
 go
-ALTER Table customers
-	 alter column note varchar(30) not null;
+
 
 Update Customers set
-	note = 'Default Note'
+	note = 'Default Note'*/
