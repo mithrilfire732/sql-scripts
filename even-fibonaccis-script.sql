@@ -31,7 +31,9 @@ go
 exec genFibbies;
 go
 --	select statement to return even numbers only
-select * from FibNums
+select Fibonacci from FibNums
 	where Fibonacci%2 = 0;
+select sum (Fibonacci) 'Sum of Evens' from FibNums
+	where Fibonacci%2 = 0
 go
 drop table FibNums;
